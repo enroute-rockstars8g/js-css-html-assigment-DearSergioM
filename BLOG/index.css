@@ -1,0 +1,124 @@
+/*Cuerpo del HTML*/
+
+body{
+    font-family: "Raleway", 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #1E5A93;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+
+.column {
+    float: left;
+    width: 20%;
+    padding: 0 10px;
+}
+
+.row {
+    margin: 0 -5px;
+}
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 16px;
+    text-align: center;
+    background-color: #f1f1f1;
+    margin: 8%;
+}
+@media screen and (max-width: 600px) {
+    .column {
+        width: 100%;
+        display: block;
+        margin-bottom: 20px;
+    }
+}
+body{
+    margin: 0;
+    height: 100%;
+}
+html{
+    height: 100%;
+}
+header{
+    align-items: center;
+    align-content: center;
+    text-align: center; 
+}
+
+/*Sección de biografia corta*/
+
+#profilePic{
+    border-radius: 50%;
+    margin-top: 15px;
+    width: 20%;
+    height:fit-content;
+    border: 10px;
+    transition: 1s;
+
+    border-style: double;
+    border-color: rgb(196, 196, 221);
+    box-shadow: 0 25px 25px 0 rgba(0, 0, 0, 0.486);
+}
+#profilePic:hover {
+    box-shadow: 0 25px 25px 10px rgba(255, 255, 255, 0.486);
+    transform: scale(1.1);
+}
+#cardPic{
+    border-radius: 50%;
+    margin-top: -10px;
+    width: 80%;
+    border: 5px;
+    border-style: solid;
+    border-color: rgb(0, 0, 0);
+}
+
+#cards{
+    border: 3px;
+    border-style: solid;
+    border-color: black;
+    border-radius: 15px;
+    box-shadow: 0 20px 20px 0 rgb(0, 0, 0);
+    transition: 1s;
+    background-color: rgb(194, 198, 201);
+    height:fit-content;
+    align-content: center;
+}
+
+#cards:hover {
+    box-shadow: 0 25px 25px 10px rgba(255, 255, 255, 0.486);
+    transform: scale(1.1);
+}
+
+/*Sección de actividad*/
+button{
+    font-family: "Raleway", 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#columnHomework{
+    float: left;
+    width: 50%;
+    padding: 0 10px;
+}
+
+#cardsHomework{
+    border: 3px;
+    border-style: solid;
+    border-color: black;
+    border-radius: 15px;
+    box-shadow: 0 20px 20px 0 rgb(0, 0, 0);
+    transition: 1s;
+    background-color: rgb(194, 198, 201);
+    height: 220px;
+    align-content: center;
+}
+
+#cardsHomework:hover {
+    box-shadow: 0 25px 25px 10px rgba(255, 255, 255, 0.486);
+    transform: scale(1.1);
+}

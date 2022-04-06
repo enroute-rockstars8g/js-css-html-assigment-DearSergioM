@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css"> </link>
+
+</head>
+<body>
+    <script src="index.js"></script>
+    <header> 
+        <img src="/img/profile.png" id="profilePic" alt="">
+        <h1><b>DearSergio</b></h1>
+        <h2>Paramedic | Chef | Engineer</h2>
+        <h2>Level 30 | Coffee Lover | Gaming</h2>
+        <br>
+    </header>
+    
+    <div class="row" id="bio">
+        <div class="column">
+            <div class="card" id="cards">
+                <img src="/img/family.png" id="cardPic">
+                <h3>Mi familia</h3>
+                <br>
+                <p>Dos hermosos niños, locos como no tienen una idea, pero aun así son el amor de mi vida, Said de 9 años y Sergio Jr de 4 años. 
+                    Gracias a ellos el doy de hoy estoy en RockStars, y sé que todo lo que estoy haciendo y la dedicación que doy día a día me 
+                    ayudara a darles una mejor calidad de vida. </p>
+            </div>
+        </div>
+        <div class="column">
+            <div class="card" id="cards">
+                <img src="/img/chef.png" id="cardPic">
+                <h3>Chef</h3>
+                <p>Mi primera carrera como Licenciado en Administración Culinaria, me ha permitido adquirir experiencia a través de varios años, 
+                    desde aprender toda clase de platillos de todo el mundo, también fue mi entrada al mundo de la administración, tener la oportunidad 
+                    de manejar a nivel gerencial grandes restaurantes o cadenas comerciales muy famosas desde Starbucks, KFC, Panem, Los Arcos, Noreste Grill, etc.  
+                </p>
+        </div>
+        </div>
+        
+        <div class="column">
+            <div class="card" id="cards">
+                <img src="/img/un.png" id="cardPic">
+                <h3>Ingeniería en Tecnologías
+                    de la Información </h3>
+                <p>Definitivamente uno de las mejores decisiones que he tomado en mi vida, fue precisamente cambiar de carrera, 
+                    doy gracias a Dios y a mi familia por apoyarme y creer en mí, justo a finales del 2021 me gradué en la 
+                    Universidad del Norte, días y noches de muchos desvelos pero que valieron cada sacrificio. Por lo pronto me gustaria 
+                    enfocarme mas en el area de BackEnd pero todo puede pasar :)</p>
+            </div>
+        </div>
+        
+        <div class="column">
+            <div class="card" id="cards">
+                <img src="/img/years.png" id="cardPic">
+                <h3>Fifteen years, long fifteen years...</h3>
+                <p>De ser amigos, cómplices de otros amores, novios y hoy en día tengo el honor de estar a su lado. Mi esposa 
+                    Myrla siempre ha estado a mi lado, en los mejores y peores momentos de mi vida, dándome todo su apoyo de 
+                    manera incondicional. Pasamos por muchas cosas, desde ser padres a muy temprana edad, a vernos crecer de 
+                    manera personal, como profesional y en cada paso que damos como familia siempre esta esa chispa como pareja. M&S. </p>
+            </div>
+        </div>
+
+        <div class="column">
+            <div class="card" id="cards">
+                <img src="/img/xbox.png" id="cardPic">
+                <h3>Pasatiempos...</h3>
+                <p> Videojuegos... No hay otra cosa mas divertida (punto). </p>
+                <p> Fuera de bromas, siempre me ha gustado los videojuegos, mi padre fue quien me dio ese vicio, recuerdo cuando 
+                    estaba aún en pañales verlo jugar el Atari, de ahí siempre conseguimos cada generación de consolas. La tradición 
+                    seguirá viviendo a través de mis hijos hasta el fin de los tiempos. (Favorite game: StarCraft). </p>
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="column" id="columnHomework" >
+            <div class="card" id="cardsHomework">
+                <h2>Serie Fibonacci</h2>
+                    <input id="numeroF" type="number" placeholder="Ingresa un numero =)">
+				    <button onclick="fibonacci()">Generar</button>
+                    <br>
+                    <h3><div id="resultado">
+                        Aquí saldra tu resultado :D
+                    </div></h3>
+			</div>
+
+        </div>
+        <div class="column" id="columnHomework">
+            <div class="card" id="cardsHomework">
+                <h2>Factorial</h2>
+
+                    <input id="numeroFactorial" type="number" placeholder="Ingresa un numero =)">
+                    <button onclick="factorial()"> Generar</button>
+
+                    <div>
+                        <h3>Factorial de <span id="numeroEvaluado">#</span> es: <div id="resultado2"></div></h3>
+                    </div>
+                
+
+            
+            </div>
+        </div>
+    </div>
+
+
+</body>
+</html>
